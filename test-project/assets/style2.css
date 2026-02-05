@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+a{
+    color: white;
+    position: relative;
+    text-decoration: none;
+    display: block;
+}
+
+a::before{
+    content: "[";
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: 0.2s;
+    background-color: blue;
+    overflow: hidden;
+}
+
+
+a::before{
+    content: "]";
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: 0.2s;
+    background-color: blue;
+    overflow: hidden;
+}
+
+a:hover::before{
+    
+}

@@ -1,0 +1,74 @@
+/* .box {
+    width: 140px;
+    padding: 40px 40px;
+    height: 140px;
+    position: relative;
+    background: blue;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+body {
+    background-color: darkblue;
+}
+
+
+@keyframes myAnimation{
+    0% {background-color: red; left: 0px; top: 0;}
+    25% {background-color: yellow; left: 900px; top: 0px;}
+    50% {background-color: green; left: 900px; top: 200px;}
+    75% {background-color: blue; left: 0px; top: 200px;}
+    100% {
+        background-color: red; left: 0px; top: 0px;
+    }
+} */
+
+
+
+/* new project start */
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: rgb(24, 23, 23);
+}
+
+.call {
+    float: right;
+    margin: 100px;
+    position: relative;
+    padding: 20px 20px;
+    border: none;
+    color: white;
+    background: #3498db;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top: 800px;
+    animation-name: call;
+    animation-delay: 5s;
+    transition: 1s;
+    animation-duration: inherit;
+}
+
+
+.call:hover {
+    background: #1a8d1a;
+    transform: rotate(10deg);
+    transform: scale(110%);
+        
+}
+
+@keyframes {
+    
+}

@@ -1,0 +1,72 @@
+/* start */
+
+img {
+    width: 140px;
+    height: 130px;
+}
+
+body {
+    
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    height: 100vh;
+    list-style: 1.9;
+}
+
+div >img:nth-child(1):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(2):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(3):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(4):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(5):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(6):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(7):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(8):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(9):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(10):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(11):hover {
+    opacity: 0.5;
+}
+
+div >img:nth-child(12):hover {
+    opacity: 0.5;
+}
+
+
+div >img:nth-child(13):hover {
+    opacity: 0.5;
+}

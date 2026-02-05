@@ -1,0 +1,41 @@
+button{
+    border-radius: 30px;
+    padding: 12px;
+    color: blueviolet;
+    border-color: blueviolet;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+button::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: blueviolet;
+    top: 0;
+    left: 0;
+    transition: 0.55s;
+}
+
+button:hover::before{
+    width: 100%;
+}
+
+button span{
+    z-index: 2;
+    position: relative;
+}
+
+button:hover{
+    color: white;
+}
+
+button:hover span::after{
+    content: "→";
+    color: white;
+}
+
