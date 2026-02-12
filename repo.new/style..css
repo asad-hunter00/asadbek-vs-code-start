@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container img {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 300px;    
+}
+
+
+.img_1 {
+    filter: blur(10px);
+}
+
+.img_2 {
+    filter: opacity(30%);
+}
+
+
+.img_3 {
+    filter: brightness(40%);
+}
+
+.img_4 {
+    filter: grayscale();
+}
+
+.img_5 {
+    filter: hue-rotate(120deg);
+}
+
+.img_6 {
+    filter: drop-shadow(50deg);
+}
